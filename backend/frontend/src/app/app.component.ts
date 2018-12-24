@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  products = [{ name: 'Product1' }];
+
+  mousehover = function (flag) {
+    console.log("mouse entered: ", flag);
+  }
 }
